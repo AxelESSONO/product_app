@@ -84,6 +84,7 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation("androidx.activity:activity-ktx:1.9.0")
 
+    // Load Image
     implementation("io.coil-kt:coil-compose:2.6.0")
 
 }

@@ -14,7 +14,7 @@ class ProductActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             ProductAppTheme {
-                ProductScreen()
+                UserScreen()
             }
         }
     }

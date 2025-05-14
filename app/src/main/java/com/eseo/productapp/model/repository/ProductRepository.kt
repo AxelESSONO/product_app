@@ -18,7 +18,6 @@ class ProductRepository @Inject constructor (
         Log.e("ProductRepository", "Error fetching products", e)
         emit(emptyList())
     }
-
 }
 
 

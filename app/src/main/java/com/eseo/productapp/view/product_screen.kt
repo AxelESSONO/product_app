@@ -24,6 +24,8 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import coil.compose.AsyncImage
 import com.eseo.productapp.model.data.Product
+import com.eseo.productapp.model.repository.ProductRepository
+import com.eseo.productapp.model.service.ProductApi
 import com.eseo.productapp.ui.theme.Pink40
 import com.eseo.productapp.ui.theme.PurpleGrey40
 import com.eseo.productapp.ui.theme.PurpleGrey80

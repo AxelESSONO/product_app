@@ -3,7 +3,7 @@ package com.eseo.productapp.model.data
 
 import com.google.gson.annotations.SerializedName
 
-data class ProductResponseItem(
+data class Product(
     @SerializedName("category")
     val category: String,
 

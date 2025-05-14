@@ -1,11 +1,11 @@
 package com.eseo.productapp.model.service
 
-import com.eseo.productapp.model.data.ProductResponse
+import com.eseo.productapp.model.data.Product
 import retrofit2.http.GET
 
 interface ProductApi {
 
     @GET("products")
-    fun getProductResponse(): ProductResponse
+    suspend fun getProductResponse(): List<Product>
 
 }

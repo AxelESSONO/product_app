@@ -67,7 +67,8 @@ dependencies {
     kapt("com.google.dagger:hilt-android-compiler:2.56.2")
     implementation("androidx.hilt:hilt-navigation-fragment:1.0.0")
 
-    //kapt("androidx.lifecycle:lifecycle-compiler:2.6.1")
+    implementation("androidx.hilt:hilt-navigation-compose:1.2.0")
+
 
     // Coroutines
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.0")
